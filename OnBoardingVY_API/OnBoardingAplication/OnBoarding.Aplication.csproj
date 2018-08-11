@@ -4,4 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OnBoardingVY.Aplication.Interfaces\OnBoardingVY.Aplication.Interfaces.csproj" />
+    <ProjectReference Include="..\OnBoardingVY.Persistence\OnBoardingVY.Persistence.csproj" />
+    <ProjectReference Include="..\OnBoardingVY.Service\OnBoardingVY.Service.csproj" />
+  </ItemGroup>
+
 </Project>

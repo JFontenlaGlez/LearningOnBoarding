@@ -25,36 +25,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "OnBoardingVY.Aplication.Interfaces/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/OnBoardingVY.Aplication.Interfaces.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OnBoardingVY.Aplication.Interfaces.dll": {}
-        }
-      },
-      "OnBoardingVY.Persistence/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/OnBoardingVY.Persistence.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OnBoardingVY.Persistence.dll": {}
-        }
-      },
-      "OnBoardingVY.Service/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/OnBoardingVY.Service.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OnBoardingVY.Service.dll": {}
-        }
       }
     }
   },
@@ -198,29 +168,11 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "OnBoardingVY.Aplication.Interfaces/1.0.0": {
-      "type": "project",
-      "path": "../OnBoardingVY.Aplication.Interfaces/OnBoardingVY.Aplication.Interfaces.csproj",
-      "msbuildProject": "../OnBoardingVY.Aplication.Interfaces/OnBoardingVY.Aplication.Interfaces.csproj"
-    },
-    "OnBoardingVY.Persistence/1.0.0": {
-      "type": "project",
-      "path": "../OnBoardingVY.Persistence/OnBoardingVY.Persistence.csproj",
-      "msbuildProject": "../OnBoardingVY.Persistence/OnBoardingVY.Persistence.csproj"
-    },
-    "OnBoardingVY.Service/1.0.0": {
-      "type": "project",
-      "path": "../OnBoardingVY.Service/OnBoardingVY.Service.csproj",
-      "msbuildProject": "../OnBoardingVY.Service/OnBoardingVY.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3",
-      "OnBoardingVY.Aplication.Interfaces >= 1.0.0",
-      "OnBoardingVY.Persistence >= 1.0.0",
-      "OnBoardingVY.Service >= 1.0.0"
+      "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
@@ -230,11 +182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repo\\LearningOnBoarding\\OnBoardingVY_API\\OnBoardingAplication\\OnBoarding.Aplication.csproj",
-      "projectName": "OnBoarding.Aplication",
-      "projectPath": "C:\\Repo\\LearningOnBoarding\\OnBoardingVY_API\\OnBoardingAplication\\OnBoarding.Aplication.csproj",
+      "projectUniqueName": "C:\\Repo\\LearningOnBoarding\\OnBoardingVY_API\\OnBoardingVY.Aplication.Interfaces\\OnBoardingVY.Aplication.Interfaces.csproj",
+      "projectName": "OnBoardingVY.Aplication.Interfaces",
+      "projectPath": "C:\\Repo\\LearningOnBoarding\\OnBoardingVY_API\\OnBoardingVY.Aplication.Interfaces\\OnBoardingVY.Aplication.Interfaces.csproj",
       "packagesPath": "C:\\Users\\jfontenl\\.nuget\\packages\\",
-      "outputPath": "C:\\Repo\\LearningOnBoarding\\OnBoardingVY_API\\OnBoardingAplication\\obj\\",
+      "outputPath": "C:\\Repo\\LearningOnBoarding\\OnBoardingVY_API\\OnBoardingVY.Aplication.Interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -252,17 +204,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {
-            "C:\\Repo\\LearningOnBoarding\\OnBoardingVY_API\\OnBoardingVY.Aplication.Interfaces\\OnBoardingVY.Aplication.Interfaces.csproj": {
-              "projectPath": "C:\\Repo\\LearningOnBoarding\\OnBoardingVY_API\\OnBoardingVY.Aplication.Interfaces\\OnBoardingVY.Aplication.Interfaces.csproj"
-            },
-            "C:\\Repo\\LearningOnBoarding\\OnBoardingVY_API\\OnBoardingVY.Persistence\\OnBoardingVY.Persistence.csproj": {
-              "projectPath": "C:\\Repo\\LearningOnBoarding\\OnBoardingVY_API\\OnBoardingVY.Persistence\\OnBoardingVY.Persistence.csproj"
-            },
-            "C:\\Repo\\LearningOnBoarding\\OnBoardingVY_API\\OnBoardingVY.Service\\OnBoardingVY.Service.csproj": {
-              "projectPath": "C:\\Repo\\LearningOnBoarding\\OnBoardingVY_API\\OnBoardingVY.Service\\OnBoardingVY.Service.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
